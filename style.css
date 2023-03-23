@@ -1,6 +1,8 @@
 /* Body */
 body {
-  background-color: aquamarine;
+  background-color: hsl(273, 75%, 66%);
+  background-color: hsl(240, 73%, 65%);
+  background-blend-mode: darken, luminosity;
 }
 
 .main-card {
@@ -15,12 +17,24 @@ body {
 }
 
 .image-class {
-  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  width: 50px;
+  justify-content: flex-start;
 }
 
 .text {
+  display: flex;
+  flex-direction: column;
   width: fit-content;
   margin: 30px;
+  justify-content: flex-end;
+}
+
+/* IMAGES  */
+
+.error-down {
+  width: 10px;
 }
 
 /* Attribution */
