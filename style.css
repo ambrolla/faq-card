@@ -1,8 +1,11 @@
 /* Body */
 body {
-  background-color: hsl(273, 75%, 66%);
-  background-color: hsl(240, 73%, 65%);
-  background-blend-mode: darken, luminosity;
+  background-color: linear-gradient(hsl(273, 75%, 66%)),
+    linear-gradient(hsl(240, 73%, 65%));
+  background-blend-mode: screen, difference, lighten;
+  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .main-card {
