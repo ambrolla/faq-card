@@ -1,7 +1,6 @@
 /* Body */
 body {
-  background-color: linear-gradient(hsl(273, 75%, 66%)),
-    linear-gradient(hsl(240, 73%, 65%));
+  background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
   background-blend-mode: screen, difference, lighten;
   background-size: 100%;
   background-size: cover;
@@ -11,6 +10,7 @@ body {
 .main-card {
   align-items: center;
   align-self: center;
+  border-radius: 2%;
   display: flex;
   background-color: white;
   margin: 50px;
