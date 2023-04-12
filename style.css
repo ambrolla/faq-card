@@ -2,9 +2,8 @@
 body {
   background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
   background-blend-mode: screen, difference, lighten;
-  background-size: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: contain;
+  /* background-repeat: no-repeat; */
 }
 
 .main-card {
@@ -13,25 +12,24 @@ body {
   border-radius: 2%;
   display: flex;
   background-color: white;
-  margin: 50px 100px;
+  margin: 50px 150px;
   text-align: left;
-  justify-content: center;
+  /* justify-content: flex-start; */
   vertical-align: middle;
 }
 
 .image-class {
   display: flex;
   flex-direction: column;
-  width: 150px;
-  justify-content: flex-start;
+  margin: 30px;
+  width: 350px;
+  /* justify-content: flex-start; */
 }
 
 .text {
-  display: flex;
-  flex-direction: column;
+  margin: 40px;
   width: fit-content;
-  margin: 30px;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
 }
 
 /* IMAGES  */
@@ -48,4 +46,11 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/* Media */
+@media screen and (min-height: 1500px) {
+  body {
+    height: 2300px;
+  }
 }
