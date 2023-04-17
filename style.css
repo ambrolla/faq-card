@@ -11,24 +11,28 @@ body {
   align-self: center;
   border-radius: 2%;
   display: flex;
+  flex: 2;
   background-color: white;
   margin: 50px 150px;
   text-align: left;
-  /* justify-content: flex-start; */
   vertical-align: middle;
 }
 
 .image-class {
-  display: flex;
-  flex-direction: column;
-  margin: 30px;
-  width: 350px;
+  /* display: flex;
+  flex-direction: column; */
+  flex: 2;
+  margin: 50px;
+  width: 32%;
   /* justify-content: flex-start; */
 }
 
 .text {
-  margin: 40px;
-  width: fit-content;
+  /* display: flex;
+  flex-direction: column; */
+  flex: 2;
+  margin: 50px;
+  width: 32%;
   /* justify-content: flex-end; */
 }
 
